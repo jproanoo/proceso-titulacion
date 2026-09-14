@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proceso de Trabajo de Titulación (Asignatura TT)</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-light">
+
+    <!-- Navbar / Encabezado -->
+    <nav class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1"><i class="bi bi-mortarboard-fill me-2"></i>Asignatura: Trabajo de Titulación (TT)</span>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main class="container my-5">
+        
+        <!-- Sección de Bienvenida / Introducción -->
+        <section class="row mb-4">
+            <div class="col-12 text-center">
+                <h1 class="display-5 fw-bold text-primary">Proceso y Fases de Titulación</h1>
+                <p class="lead text-muted">Guía detallada sobre el desarrollo, fases, evaluación y cronograma del período 69.</p>
+            </div>
+        </section>
+
+        <!-- Navegación por Pestañas -->
+        <ul class="nav nav-pills nav-fill mb-4 gap-2" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active fw-semibold shadow-sm" id="tab-cronograma" data-bs-toggle="pill" data-bs-target="#content-cronograma" type="button" role="tab">Cronograma (Período 69)</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link fw-semibold shadow-sm" id="tab-preparatoria" data-bs-toggle="pill" data-bs-target="#content-preparatoria" type="button" role="tab">Fase Preparatoria</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link fw-semibold shadow-sm" id="tab-fase1" data-bs-toggle="pill" data-bs-target="#content-fase1" type="button" role="tab">Fase 1: Diseño</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link fw-semibold shadow-sm" id="tab-fase2" data-bs-toggle="pill" data-bs-target="#content-fase2" type="button" role="tab">Fase 2: Desarrollo</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link fw-semibold shadow-sm" id="tab-aptitud" data-bs-toggle="pill" data-bs-target="#content-aptitud" type="button" role="tab">Declaratoria de Aptitud</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link fw-semibold shadow-sm" id="tab-evaluacion" data-bs-toggle="pill" data-bs-target="#content-evaluacion" type="button" role="tab">Evaluación y Puntajes</button>
+            </li>
+        </ul>
+
+        <!-- Contenido de las Pestañas -->
+        <div class="tab-content" id="pills-tabContent">
+            
+            <!-- CRONOGRAMA (PERÍODO 69) -->
+            <div class="tab-pane fade show active" id="content-cronograma" role="tabpanel">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <h3 class="card-title text-dark mb-3"><i class="bi bi-calendar-check-fill text-primary me-2"></i>Cronograma del Proceso - Período 69</h3>
+                        <p class="text-muted">Fechas clave y acciones que deben realizar los estudiantes y responsables a lo largo del proceso de titulación.</p>
+                        
+                        <div class="table-responsive mt-4">
+                            <table class="table table-striped table-hover align-middle">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Actividad / Acción</th>
+                                        <th>Fecha Límite</th>
+                                        <th>Responsable</th>
+                                        <th>Observación</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Entrega de Diseños (DTT) y Solicitud de Ingreso</strong><br><small class="text-muted">Entrega del DTT para revisión y solicitud de ingreso a la UT.</small></td>
+                                        <td><span class="badge bg-danger">Hasta el 28 de Octubre</span></td>
+                                        <td>Responsable de la asignatura de UT</td>
+                                        <td>Todos los estudiantes deben entregar el DTT y realizar la solicitud de ingreso.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Revisión y Aval de DTT</strong><br><small class="text-muted">Revisión y aval a través del sistema de solicitudes.</small></td>
+                                        <td><span class="badge bg-warning text-dark">Hasta el 06 de Noviembre</span></td>
+                                        <td>Responsable de la asignatura de UT</td>
+                                        <td>Para su respectiva aprobación en consejo.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Aprobación de Solicitudes de Ingreso</strong><br><small class="text-muted">Aprobación en consejo de carrera de los DTT.</small></td>
+                                        <td><span class="badge bg-warning text-dark">Hasta el 09 de Noviembre</span></td>
+                                        <td>Jefe de Área de Titulación</td>
+                                        <td>Incluye la reformulación de ser el caso.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Revisión de DTTs con Reformulación</strong><br><small class="text-muted">Presentación de DTTs corregidos.</small></td>
+                                        <td><span class="badge bg-warning text-dark">Hasta el 13 de Noviembre</span></td>
+                                        <td>Responsable de la asignatura de UT</td>
+                                        <td>Presentación de diseños con las reformulaciones solicitadas.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Entrega de TT para Similitud</strong><br><small class="text-muted">Adjuntar carta de aval de finalización del TT.</small></td>
+                                        <td><span class="badge bg-warning text-dark">Hasta el 11 de Enero</span></td>
+                                        <td>Docente Tutor</td>
+                                        <td>Envío previo al control de coincidencias.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Solicitud de revisión de Similitud</strong></td>
+                                        <td><span class="badge bg-warning text-dark">Hasta el 12 de Enero</span></td>
+                                        <td>Equipo de UT</td>
+                                        <td>Envío al Lcdo. Jaime Castellanos.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Recepción de Informe de Similitud</strong></td>
+                                        <td><span class="badge bg-warning text-dark">Hasta el 14 de Enero</span></td>
+                                        <td>Equipo de UT</td>
+                                        <td>Remisión del reporte a docentes tutores y estudiantes.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Solicitud de revisión por pares (AA)</strong><br><small class="text-muted">Adjuntar TT, Informe Turnitin e Informe de conformidad.</small></td>
+                                        <td><span class="badge bg-danger">Hasta el 15 de Enero</span></td>
+                                        <td>Estudiantes</td>
+                                        <td>Requerido exclusivamente para Artículos Académicos / Ensayo.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Designación de revisores</strong></td>
+                                        <td><span class="badge bg-secondary">Hasta el 18 de Enero</span></td>
+                                        <td>Jefe de Área de Titulación</td>
+                                        <td>Coordinación con docentes revisores para artículos.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Seminario de UT</strong><br><small class="text-muted">Preparación del DTT período 70.</small></td>
+                                        <td><span class="badge bg-info text-dark">Del 18 al 22 de Enero</span></td>
+                                        <td>Responsable de la materia de UT</td>
+                                        <td>Impartido para estudiantes del período 70.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Solicitud de Exposición</strong><br><small class="text-muted">Adjuntar TT, Turnitin, Conformidad tutor (Para AA solo el TT).</small></td>
+                                        <td><span class="badge bg-danger">Hasta el 22 de Enero</span></td>
+                                        <td>Estudiantes</td>
+                                        <td>Fecha límite para solicitar la defensa de grado.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Registro de Calificaciones (Fase 2)</strong></td>
+                                        <td><span class="badge bg-secondary">Hasta el 22 de Enero</span></td>
+                                        <td>Docentes Tutores</td>
+                                        <td>Registro de notas en el sistema por parte de los tutores.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Coordinación y Calendario de Defensas</strong></td>
+                                        <td><span class="badge bg-secondary">Del 25 Ene al 1 Feb</span></td>
+                                        <td>Jefe de Área / Consejo</td>
+                                        <td>Coordinación de fechas, horas y aprobación del calendario.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Defensas / Sustentaciones</strong></td>
+                                        <td><span class="badge bg-success">Del 10 al 16 de Febrero</span></td>
+                                        <td>Jefe de Área de Titulación</td>
+                                        <td>Exposición y defensa del trabajo ante el tribunal.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Registro de notas de exposición</strong></td>
+                                        <td><span class="badge bg-secondary">Hasta el 19 de Febrero</span></td>
+                                        <td>Secretaria de consejo de carrera</td>
+                                        <td>Carga oficial de calificaciones de defensa.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Entrega a Biblioteca</strong><br><small class="text-muted">Envío al Lcdo. Castellanos vía correo.</small></td>
+                                        <td><span class="badge bg-warning text-dark">Hasta el 23 de Febrero</span></td>
+                                        <td>Estudiantes</td>
+                                        <td>Envío digital del documento final aprobado.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Solicitud de Aptitud</strong><br><small class="text-muted">Adjuntar cédula y votación a color.</small></td>
+                                        <td><span class="badge bg-danger">Hasta el 24 de Febrero</span></td>
+                                        <td>Estudiantes</td>
+                                        <td>Solo estudiantes que hayan aprobado todos los requisitos de la malla.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Solicitud de Certificados</strong><br><small class="text-muted">Biblioteca, no adeudar, laboratorios.</small></td>
+                                        <td><span class="badge bg-secondary">Hasta el 26 de Febrero</span></td>
+                                        <td>Director de Carrera</td>
+                                        <td>Gestión interna de certificados de no adeudar.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FASE PREPARATORIA -->
+            <div class="tab-pane fade" id="content-preparatoria" role="tabpanel">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <h3 class="card-title text-dark mb-3"><i class="bi bi-journal-text text-primary me-2"></i>Fase Preparatoria</h3>
+                        <p>La carrera proporciona un taller sin costo en el período académico previo al inicio del nivel de titulación, orientado al desarrollo del Diseño del Trabajo de Titulación.</p>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Fomenta la participación de todos los estudiantes (no forma parte del registro académico oficial).</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>El objetivo principal es facilitar que los estudiantes concluyan el diseño de su trabajo.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FASE 1 -->
+            <div class="tab-pane fade" id="content-fase1" role="tabpanel">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <h3 class="card-title text-dark mb-3"><i class="bi bi-file-earmark-text text-primary me-2"></i>Fase 1: Presentación y Aprobación del Diseño</h3>
+                        <p>Tiene como propósito ingresar al proceso de titulación mediante la aprobación del Consejo de Carrera.</p>
+                        
+                        <div class="row mt-4">
+                            <div class="col-md-6 mb-3">
+                                <div class="p-3 bg-light rounded h-100 border-start border-primary border-4">
+                                    <h5>Planificación Docente</h5>
+                                    <p class="small text-muted mb-0">El docente registra el sílabo con al menos tres actividades evaluativas en el primer mes, enfocadas específicamente en los componentes del diseño (no exámenes).</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="p-3 bg-light rounded h-100 border-start border-success border-4">
+                                    <h5>Ingreso al Proceso</h5>
+                                    <p class="small text-muted mb-0">Con el aval del docente, el estudiante solicita el ingreso al Director de Carrera manteniendo matrícula vigente. De ser aprobado, el Consejo designa tutor.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="alert alert-warning mt-3 mb-0" role="alert">
+                            <i class="bi bi-exclamation-triangle-fill me-2"></i><strong>Reformulación:</strong> Si el Consejo solicita cambios, el estudiante y docente disponen de 10 días laborables para presentar las correcciones.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FASE 2: DETALLADA Y DOCUMENTACIÓN -->
+            <div class="tab-pane fade" id="content-fase2" role="tabpanel">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <h3 class="card-title text-dark mb-3"><i class="bi bi-gear-fill text-primary me-2"></i>Fase 2: Desarrollo, Documentación y Evaluación</h3>
+                        <p class="text-muted">Orientada a la ejecución del trabajo aprobado bajo el acompañamiento continuo de un docente tutor.</p>
+                        
+                        <div class="accordion mt-3" id="accordionFase2">
+                            
+                            <!-- 1. Seguimiento y Tutoría -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingF2_1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseF2_1" aria-expanded="true" aria-controls="collapseF2_1">
+                                        <i class="bi bi-person-check-fill text-primary me-2"></i> 1. Planificación, Seguimiento y Tutoría
+                                    </button>
+                                </h2>
+                                <div id="collapseF2_1" class="accordion-collapse collapse show" data-bs-parent="#accordionFase2">
+                                    <div class="accordion-body">
+                                        <p>Una vez aprobado el diseño, el docente tutor acompaña y orienta al estudiante de forma continua.</p>
+                                        <ul>
+                                            <li><strong>Obligatoriedad del seguimiento:</strong> Actividad obligatoria del docente tutor; su incumplimiento impide registrar las calificaciones del desarrollo.</li>
+                                            <li><strong>Calificación del Tutor:</strong> Se registra utilizando la rúbrica del mecanismo seleccionado.</li>
+                                            <li><strong>Recuperación:</strong> Si el trabajo no ha culminado, el estudiante se acoge a la recuperación calendarizada. Las notas de recuperación reemplazan a las previas. De no finalizarse, la asignatura TT se reprueba.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 2. Documentos para Revisión por Pares (Ensayo o Artículo) -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingF2_2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseF2_2" aria-expanded="false" aria-controls="collapseF2_2">
+                                        <i class="bi bi-file-earmark-richtext-fill text-primary me-2"></i> 2. Documentos requeridos para Revisión por Pares (Ensayo / Artículo)
+                                    </button>
+                                </h2>
+                                <div id="collapseF2_2" class="accordion-collapse collapse" data-bs-parent="#accordionFase2">
+                                    <div class="accordion-body">
+                                        <p>Si el mecanismo es <strong>Ensayo o Artículo Académico</strong> y el tutor da por culminado el trabajo, el estudiante solicita la revisión por pares al Director de Carrera (con matrícula vigente). Debe adjuntar obligatoriamente:</p>
+                                        <div class="list-group mb-3">
+                                            <div class="list-group-item list-group-item-action">
+                                                <i class="bi bi-file-earmark-pdf text-danger me-2"></i><strong>a) Trabajo de titulación:</strong> Documento completo redactado conforme a la estructura del ensayo o artículo.
+                                            </div>
+                                            <div class="list-group-item list-group-item-action">
+                                                <i class="bi bi-shield-check text-success me-2"></i><strong>b) Informe antiplagio:</strong> Reporte generado por el aplicativo oficial para el control de similitud entre trabajos.
+                                            </div>
+                                            <div class="list-group-item list-group-item-action">
+                                                <i class="bi bi-cpu text-primary me-2"></i><strong>c) Informe del docente tutor:</strong> Detalle sobre el porcentaje de coincidencia/similitud y el cumplimiento de la normativa institucional vigente sobre uso de herramientas de IA y control de similitud.
+                                            </div>
+                                        </div>
+                                        <p class="small text-muted mb-0"><strong>Proceso:</strong> El Jefe de Área coordina a dos docentes revisores pares, quienes evalúan mediante rúbrica en un plazo de <strong>10 días laborables</strong>.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 3. Documentos para la Exposición y Tribunal -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingF2_3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseF2_3" aria-expanded="false" aria-controls="collapseF2_3">
+                                        <i class="bi bi-people-fill text-primary me-2"></i> 3. Documentos para el Tribunal de Exposición (Otros Mecanismos)
+                                    </button>
+                                </h2>
+                                <div id="collapseF2_3" class="accordion-collapse collapse" data-bs-parent="#accordionFase2">
+                                    <div class="accordion-body">
+                                        <p>Para mecanismos que <strong>no correspondan a ensayo o artículo académico</strong> (o tras haber superado la revisión por pares), el estudiante solicita la exposición dirigida al Director de Carrera con matrícula vigente. Debe adjuntar:</p>
+                                        <div class="list-group mb-3">
+                                            <div class="list-group-item list-group-item-action">
+                                                <i class="bi bi-file-earmark-text text-primary me-2"></i><strong>a) Trabajo de titulación:</strong> Documento final de la investigación o proyecto.
+                                            </div>
+                                            <div class="list-group-item list-group-item-action">
+                                                <i class="bi bi-shield-check text-success me-2"></i><strong>b) Informe antiplagio:</strong> Reporte del aplicativo de control de similitud.
+                                            </div>
+                                            <div class="list-group-item list-group-item-action">
+                                                <i class="bi bi-cpu text-primary me-2"></i><strong>c) Informe del docente tutor (Antiplagio / IA):</strong> Documento que certifica el porcentaje de coincidencia y el uso correcto de herramientas de inteligencia artificial según la normativa institucional.
+                                            </div>
+                                        </div>
+                                        <div class="alert alert-info py-2 small mb-2">
+                                            <i class="bi bi-info-circle-fill me-1"></i><em>Nota para Ensayo/Artículo:</em> Si el mecanismo es ensayo o artículo académico, para esta fase de exposición se adjunta <strong>únicamente el trabajo de titulación</strong>.
+                                        </div>
+                                        <p class="fw-semibold mb-1">Conformación del Tribunal:</p>
+                                        <ul class="small mb-0">
+                                            <li>Director de Carrera, Docente tutor, Docente invitado y Docente adicional (opcional según el tema). Cada miembro califica sobre 30 puntos máx.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DECLARATORIA DE APTITUD -->
+            <div class="tab-pane fade" id="content-aptitud" role="tabpanel">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <h3 class="card-title text-dark mb-3"><i class="bi bi-award-fill text-primary me-2"></i>Declaratoria de Aptitud para la Graduación</h3>
+                        <p>Una vez cumplidos todos los requisitos de la malla, el estudiante solicita la aptitud adjuntando:</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Copia a color de cédula o pasaporte con visa vigente.</li>
+                                    <li class="list-group-item">Copia a color del certificado de votación actualizado.</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Certificado de culminación de estudios (emitido por Secretaría).</li>
+                                    <li class="list-group-item">Certificados de no adeudar: Biblioteca, Finanzas/Bienestar y Laboratorios.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EVALUACIÓN Y PUNTAJES -->
+            <div class="tab-pane fade" id="content-evaluacion" role="tabpanel">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <h3 class="card-title text-dark mb-3"><i class="bi bi-bar-chart-fill text-primary me-2"></i>Criterios y Distribución de Puntajes</h3>
+                        
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="card bg-light border-0 h-100">
+                                    <div class="card-body">
+                                        <h5 class="text-primary">Ensayo o Artículo Académico</h5>
+                                        <ul class="small mb-0">
+                                            <li>Diseño del trabajo de titulación: <strong>30 pts</strong></li>
+                                            <li>Trabajo de titulación: <strong>40 pts</strong> (Tutor: 80% / Pares: 20%)</li>
+                                            <li>Exposición: <strong>30 pts</strong></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card bg-light border-0 h-100">
+                                    <div class="card-body">
+                                        <h5 class="text-primary">Otros Mecanismos</h5>
+                                        <ul class="small mb-0">
+                                            <li>Diseño del trabajo de titulación: <strong>30 pts</strong></li>
+                                            <li>Trabajo de titulación (Tutor por rúbrica): <strong>40 pts</strong></li>
+                                            <li>Exposición: <strong>30 pts</strong></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-0 small">&copy; 2026 - Gestión de Trabajos de Titulación</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
